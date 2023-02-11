@@ -16,7 +16,7 @@ pipeline {
             stages {
                 stage('seq_one') {
                     steps {
-                        echo 'a1'
+                        echo 'a'
                     }
                 }
                 stage('seq_two') {
